@@ -2,15 +2,13 @@
     "user": {
         "userID": 1,
         "username": "haru",
-        "userPropicURL": "haru.jpg",
-        "bio": "NULL"
+        "userPropicURL": "haru.jpg"
     },
     
     "post": {
         "postID": 1,
         "userID": 1,
-        "postImageURL": "haru.jpg",
-        "caption": "Haru is my cat! <3"
+        "postImageURL": "haru.jpg"
     },
     
     "like": {

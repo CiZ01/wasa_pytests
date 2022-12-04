@@ -1,4 +1,4 @@
-#!/user/bin/python3
+#!/usr/bin/python3
 '''
     This simple python script is used to populate the database with random data or similar. 
     It is not really random, but it is good enough for this purpose.
@@ -26,7 +26,7 @@ import json
 # Insert the path to the database file here
 db_file = '/tmp/wasa_TEST.db'
 
-with open('tables_components.json', 'rb') as f:
+with open('config_populating.json', 'rb') as f:
     tables_components = json.load(f)
     f.close()
 
